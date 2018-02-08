@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+#mainHeader {
+  padding: 1.5em 2em;
+  margin: 0;
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#navBar {
+  background-color: #333;
+  color: white;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+#navBar ul {
+  list-style: none;
+  padding: 1.5em 0;
+}
+
+#navBar li {
+  display: inline;
+  padding: 0 1em;
+}
+
+.component {
+  background: #ddd
+}
+
+.component h2 {
+  margin: 0;
+  padding: 1em;
+}
+
+.component p {
+  padding: 0em 4em;
+  columns: 2;
+}
