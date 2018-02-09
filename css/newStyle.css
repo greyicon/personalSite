@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+header {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 1em;
+}
+
+nav li {
+  display: inline;
+  padding: 1em;
+}
+
+nav li:hover {
+  color: orange;
+}
+
+main {
+  margin: 0;
+}
+
+.line {
+  border: 0.2em solid #333;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.box1 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: tan;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 #flex-item-1 {
+  width: 80%;
+  padding-right: 1em;
+  box-sizing: border-box;
+}
+
+.box1 #flex-item-1 p {
+  columns: 2;
+  column-gap: 1em;
+}
+
+.box1 #flex-item-3 {
+  width: 20%;
+}
+
+.box2 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-image: url('https://images.pexels.com/photos/137618/pexels-photo-137618.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 .container {
+  background-color: white;
+  opacity: 0.85;
+  border: 2em solid white;
+  border-radius: 2em;
+}
+
+.box2 h3 {
+  font-style: italic;
+  margin-bottom: 0.4em
+}
+
+.box2 #flex-item-1 {
+  flex: 3;
+}
+
+.box2 #flex-item-2 {
+  flex: 1;
+  padding-left: 3em;
+  box-sizing: border-box;
+}
+
+.box2 #flex-item-2 ul {
+  padding-left: 1.5em;
+  box-sizing: border-box;
+}
+
+.box2 #flex-item-2 li {
+  padding-top: 0.2em;
+}
+
+.box3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.box3 #flex-item-1, .box3 #flex-item-2, .box3 #flex-item-3 {
+  background-color: darkseagreen;
+  flex-basis: 30%;
+  height: 4em;
+  border-radius: 2em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.box3 #flex-item-1:hover, .box3 #flex-item-2:hover, .box3 #flex-item-3:hover{
+  background-color: lightgreen;
+  border-color: lightgreen;
+}
+
+.centered {
+  text-align: center;
+}
+
+.box3 input[type="button"] {
+  background-color: #333;
+  width: 15em;
+  height: 4em;
+  color: white;
+  border: black solid 3px;
+}
+
+.box3 input[type="button"]:hover {
+  background-color: #555;
+}
+
+.box3 input[type="button"]:active {
+  background-color: #777;
+}
+
+.box3 .centered {
+  padding-top: 2em;
+}
