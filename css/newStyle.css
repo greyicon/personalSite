@@ -51,10 +51,6 @@ main {
   margin: 0;
 }
 
-.line {
-  border: 0.2em solid #333;
-}
-
 .container {
   width: 75%;
   margin: auto;
@@ -64,6 +60,7 @@ main {
   padding-top: 3em;
   padding-bottom: 3em;
   background-color: tan;
+  border-bottom: 0.5em solid #333;
 }
 
 h2 {
@@ -97,13 +94,14 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-bottom: 0.5em solid #333;
 }
 
 .box2 .container {
   background-color: white;
   opacity: 0.85;
-  border: 2em solid white;
-  border-radius: 2em;
+  border: 30px solid white;
+  border-radius: 40px;
 }
 
 .box2 h3 {
@@ -135,6 +133,7 @@ h2 {
   padding-bottom: 3em;
   background-color: darkolivegreen;
   color: white;
+  border-bottom: 0.5em solid #333;
 }
 
 .box3 #flex-item-1, .box3 #flex-item-2, .box3 #flex-item-3 {
@@ -155,7 +154,7 @@ h2 {
   text-align: center;
 }
 
-.box3 input[type="button"] {
+.box3 input[type="submit"] {
   background-color: #333;
   width: 15em;
   height: 4em;
@@ -163,14 +162,62 @@ h2 {
   border: black solid 3px;
 }
 
-.box3 input[type="button"]:hover {
+.box3 input[type="submit"]:hover {
   background-color: #555;
 }
 
-.box3 input[type="button"]:active {
+.box3 input[type="submit"]:active {
   background-color: #777;
 }
 
 .box3 .centered {
   padding-top: 2em;
+}
+
+.box4 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-image: url("https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-bottom: 0.5em solid #333;
+}
+
+.box4 .container {
+  background-color: white;
+  opacity: 0.85;
+  border: 30px solid white;
+  border-radius: 40px;
+}
+
+.box4 .work-item {
+  padding-bottom: 2em;
+}
+
+.box4 h4 {
+  font-style: italic;
+  display: inline;
+  margin-left: 1em;
+}
+
+.box5 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: tan;
+  color: black;
+  border-bottom: 0.5em solid #333;
+}
+
+.box5 h3 {
+  padding-left: 3em;
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
